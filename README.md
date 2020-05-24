@@ -6,8 +6,8 @@ A brief introduction to binary search.
 The logic behind binary search
 ------
 When given n sorted numbers, split the group into halves:
-* if n is even, first check whether the $\frac{n}{2}$<sup>th</sup> number is the wanted one.
-* if n is odd, first check whether the $\frac{n+1}{2}$<sup>th</sup> number is the wanted one.
+* if n is even, first check whether the n/2<sup>th</sup> number is the wanted one.
+* if n is odd, first check whether the (n+1)/2<sup>th</sup> number is the wanted one.
 
 Then repeat the process above, with n being reduced to:
 * half of its original value if n is even.
